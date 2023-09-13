@@ -45,7 +45,7 @@ services:
     #  - CHOKIDAR_USEPULLING=true
     #  - PROXY_PASSWORD='/run/secrets/proxy_password'
     depends_on:
-     - "jointjs"
+     - "ifc"
 
   nginx:
     build:
