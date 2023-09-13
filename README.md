@@ -15,6 +15,9 @@ Based on "IFC.js - Building Information Modeling (BIM) toolkit for JavaScript" a
 
 Use the file ```haus.ifc``` (in this repository) to upload to this demo environment at https://ifcjs.github.io/web-ifc-viewer/example/index for a first impression of what IFC.js is capable of.
 
+![haus_demo](https://github.com/vanHeemstraSystems/scene-management/assets/1499433/b3bf2d33-8018-43ad-a193-094f9bc4770b)
+hasu.ifc in web-ifc-viewer
+
 Create yarn.lock file as follows:
 
 ```
