@@ -126,9 +126,9 @@ services:
     ports:
       - "3305:3306"
     
-  jointjs:
+  ifc:
     build:
-      context: ./jointjs
+      context: ./ifc
       dockerfile: Dockerfile.dev
       args: # from env_file
         UNIQUE_NAMESPACE: ${UNIQUE_NAMESPACE}
@@ -140,7 +140,7 @@ services:
         PROXY_PORT: ${PROXY_PORT}
     env_file:
       - .env     
-    container_name: ${UNIQUE_NAMESPACE}-jointjs-dev
+    container_name: ${UNIQUE_NAMESPACE}-ifc-dev
     security_opt:
       - no-new-privileges:true
     privileged: true
