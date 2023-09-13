@@ -13,6 +13,8 @@ Based on "How to Run PostgreSQL and pgAdmin Using Docker" at https://towardsdata
 
 Based on "IFC.js - Building Information Modeling (BIM) toolkit for JavaScript" at https://ifcjs.github.io/info/
 
+Use the file ```haus.ifc``` (in this repository) to upload to this demo environment at https://ifcjs.github.io/web-ifc-viewer/example/index for a first impression of what IFC.js is capable of.
+
 Create yarn.lock file as follows:
 
 ```
